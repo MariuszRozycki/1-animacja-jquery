@@ -1,0 +1,53 @@
+body {
+  background-color: darkblue;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.click {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: darkorange;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+
+.square {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  margin: 0 auto;
+}
+
+@keyframes bcg-blue {
+  0% {
+    background-color: red;
+
+  }
+
+  100% {
+    background-color: blue;
+  }
+}
+
+.blue {
+  animation-name: bcg-blue;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
